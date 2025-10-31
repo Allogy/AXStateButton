@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = "A simple UIButton subclass that allows for extensive button state customization."
   s.homepage        = "https://github.com/alexhillc/AXStateButton"
   s.author          = { "Alex Hill" => "alexhill.c@gmail.com" }
-  s.source          = { :git => "https://github.com/alexhillc/AXStateButton.git", :tag => "v#{s.version}" }
+  s.source          = { :git => "https://github.com/allogy/AXStateButton.git", :tag => "v#{s.version}" }
 
   s.platform        = :ios, '15.0'
   s.requires_arc    = true

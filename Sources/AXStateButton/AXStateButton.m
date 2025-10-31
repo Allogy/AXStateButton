@@ -77,9 +77,6 @@ typedef void(^AXStateBlock)(void);
     self.controlStateAnimationDuration = 0.2;
     self.controlStateAnimationTimingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
-    self.adjustsImageWhenHighlighted = NO;
-    self.adjustsImageWhenDisabled = NO;
-    
     NSArray<NSString *> *keys = @[ AXStateButtonTintColorKey,
                                    AXStateButtonBackgroundColorKey,
                                    AXStateButtonAlphaKey,
